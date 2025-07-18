@@ -31,7 +31,7 @@
         justify-content: space-around;
         list-style-type: none;
         width: 100%;
-        gap: 4rem; /* Adiciona espaçamento entre os itens */
+        gap: 4rem; 
     }
     li {
         color: #f5f5f5;
