@@ -15,7 +15,7 @@
     </div>
 
     <div class="footer-section">
-      <h4>Contato bla bla</h4>
+      <h4>Contato</h4>
       <p>Email: atendimento@biblioteca.com</p>
       <p>Telefone: 8888888888</p>
       <p>Endereço: aaaaaaaaaaaa</p>
@@ -23,7 +23,7 @@
   </div>
 </footer>
 <style>
-  
+
 .footer {
   background-color: #1e1e2f;
   color: #f1f1f1;
