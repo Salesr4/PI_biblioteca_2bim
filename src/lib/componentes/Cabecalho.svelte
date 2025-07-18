@@ -1,14 +1,16 @@
 <div id="cabecalho">
     <div>
-        <h1>logo do Cabeçalho</h1>
+        <img src="./logo.png" alt="">
     </div>
     <div>
+        <input type="search" name="busca-livro" id="busca-livro" placeholder="Buscar livro...🔍">
     </div>
     <nav>
         <ul>
-            <li><a href="/">inicio</a></li>
-            <li><a href="/sobre">sobre</a></li>
-            <li><a href="/contato">contato</a></li>
+            <li><a href="/inicio">Inicio</a></li>
+            <li><a href="/catalogo">Catalogo</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+            <li><a href="/contato">Contato</a></li>
         </ul>
     </nav>
 </div>
@@ -17,7 +19,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: rgba(87, 87, 248, 0.705);
+        background-color: #27374D;
         padding: 1rem;
         border-bottom: 1px solid;
         width: 100%;
@@ -29,6 +31,25 @@
         justify-content: space-around;
         list-style-type: none;
         width: 100%;
-        gap: 2rem; /* Adiciona espaçamento entre os itens */
+        gap: 4rem; /* Adiciona espaçamento entre os itens */
+    }
+    li {
+        color: #f5f5f5;
+        font-size: 1.2rem;
+    }
+
+    img{
+        width: 120px;
+        height: auto;
+        display: block;
+    }
+
+    #busca-livro {
+        width: 200%;
+        height: 3rem;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        color: #f5f5f5;
     }
 </style>
