@@ -78,7 +78,6 @@
   color: #f9a826;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
