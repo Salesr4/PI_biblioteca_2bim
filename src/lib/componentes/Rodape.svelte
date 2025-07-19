@@ -89,5 +89,14 @@
     max-width: 100%;
   }
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 </style>
 
