@@ -75,7 +75,7 @@
 }
 
 .footer-section a:hover {
-  color: #f9a826;
+  color: #DDE6ED;
 }
 
 @media (max-width: 768px) {
