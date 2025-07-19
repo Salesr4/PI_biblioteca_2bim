@@ -21,7 +21,7 @@
       <p>Endereço: aaaaaaaaaaaa</p>
     </div>
   </div>
-</footer>
+
 <style>
 
 .footer {
@@ -48,7 +48,7 @@
 .footer-section h3,
 .footer-section h4 {
   margin-bottom: 15px;
-  color: #DDE6ED;
+  color: #f9a826;
 }
 
 .footer-section p,
@@ -102,4 +102,5 @@ main {
 }
 
 </style>
+</footer>
 
