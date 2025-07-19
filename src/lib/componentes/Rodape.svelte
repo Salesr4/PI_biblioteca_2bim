@@ -21,7 +21,8 @@
       <p>Endereço: aaaaaaaaaaaa</p>
     </div>
   </div>
-
+  
+</footer>
 <style>
 
 .footer {
@@ -102,5 +103,3 @@ main {
 }
 
 </style>
-</footer>
-
