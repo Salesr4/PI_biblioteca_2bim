@@ -1,3 +1,6 @@
+<main>
+  <p>conteúdo main</p>
+</main>
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-section">
