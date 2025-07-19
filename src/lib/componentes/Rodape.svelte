@@ -48,7 +48,7 @@
 .footer-section h3,
 .footer-section h4 {
   margin-bottom: 15px;
-  color: #f9a826;
+  color: #DDE6ED;
 }
 
 .footer-section p,
