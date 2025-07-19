@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Página com rodapé fixo</title>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Biblioteca</h3>
+      <p>frasefrasefrasefrasefrasefrasefrase.</p>
+    </div>
 
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-    }
+    <div class="footer-section">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="/catalogo">Catálogo</a></li>
+        <li><a href="/contato">Contato</a></li>
+        <li><a href="/sobre">Sobre nós</a></li>
+      </ul>
+    </div>
 
-    main {
-      flex: 1;
-      padding: 20px;
-    }
+    <div class="footer-section">
+      <h4>Contato</h4>
+      <p>Email: atendimento@biblioteca.com</p>
+      <p>Telefone: 8888888888</p>
+      <p>Endereço: aaaaaaaaaaaa</p>
+    </div>
+  </div>
+</footer>
+<style>
 
     .footer {
       background-color: #27374D;
@@ -39,11 +45,11 @@
       min-width: 200px;
     }
 
-    .footer-section h3,
-    .footer-section h4 {
-      margin-bottom: 15px;
-      color: #f9a826;
-    }
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 15px;
+  color: #DDE6ED;
+}
 
     .footer-section p,
     .footer-section li,
@@ -79,40 +85,21 @@
         text-align: center;
       }
 
-      .footer-section {
-        max-width: 100%;
-      }
-    }
-  </style>
-</head>
+  .footer-section {
+    max-width: 100%;
+  }
+}
 
-<body>
-  <main>
-  </main>
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-section">
-        <h3>Biblioteca</h3>
-        <p>frasefrasefrasefrasefrasefrasefrase.</p>
-      </div>
+main {
+  flex: 1;
+}
 
-      <div class="footer-section">
-        <h4>Links</h4>
-        <ul>
-          <li><a href="/catalogo">Catálogo</a></li>
-          <li><a href="/contato">Contato</a></li>
-          <li><a href="/sobre">Sobre nós</a></li>
-        </ul>
-      </div>
+</style>
 
-      <div class="footer-section">
-        <h4>Contato</h4>
-        <p>Email: atendimento@biblioteca.com</p>
-        <p>Telefone: 8888888888</p>
-        <p>Endereço: aaaaaaaaaaaa</p>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
